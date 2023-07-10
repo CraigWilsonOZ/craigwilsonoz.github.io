@@ -89,7 +89,7 @@ author:
 
 footer:
   links:
-    - label: "Website"
+    - label: "Old Blog"
       icon: "fas fa-fw fa-link"
       url: "/https://craigwilson.blog/"
     - label: "GitHub"
