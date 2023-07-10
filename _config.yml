@@ -29,7 +29,9 @@ search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+#remote_theme: mmistakes/minimal-mistakes
+remote_theme: pages-themes/midnight@v0.2.0
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -59,6 +61,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 author:
   name   : "Craig Wilson"
